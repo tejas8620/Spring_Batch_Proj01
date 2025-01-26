@@ -19,6 +19,7 @@ public class CustomerRestController {
 	private Job job;
 	
 	
+	
 	@GetMapping("/customer")
 	public String loadDataCVStoDB() throws Exception{
 		
